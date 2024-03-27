@@ -37,7 +37,7 @@ export default function ImagePreview() {
           isLoading 
           ? <>
               <Spinner />
-              <span className="text-white">Memproses...</span>
+              <span className="text-white">Processing...</span>
             </>
           : classify.buttonClassify
         }
