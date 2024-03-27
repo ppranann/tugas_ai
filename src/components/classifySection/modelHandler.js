@@ -9,7 +9,7 @@ async function loadModel() {
   try {
     await model;
   } catch (error) {
-    throw new Error('Model tidak ditemukan');
+    throw new Error('Model Not Found');
   }
 
   return model;
@@ -17,18 +17,18 @@ async function loadModel() {
 
 function imageClasses() {
   const classes = {
-    0: 'Baterai', // 'Battery',
-    1: 'Biologis',  // 'Biological',
-    2: 'Kaca Coklat',  // 'Brown Glass',
-    3: 'Kardus' , // 'Cardboard',
-    4: 'Pakaian', // 'Clothes',
-    5: 'Kaca Hijau', // 'Green Glass',
-    6: 'Logam' , // 'Metal',
-    7: 'Kertas', // 'Paper',
-    8: 'Plastik', // 'Plastic',
-    9: 'Sepatu', // 'Shoes',
-    10: 'Residu', // 'Trash',
-    11: 'Kaca Putih' // 'White Glass',
+    0: 'Battery', // 'Battery',
+    1: 'Biological',  // 'Biological',
+    2: 'Brown Glass',  // 'Brown Glass',
+    3: 'Cardboard' , // 'Cardboard',
+    4: 'Clothes', // 'Clothes',
+    5: 'Green Glass', // 'Green Glass',
+    6: 'Metal' , // 'Metal',
+    7: 'Paper', // 'Paper',
+    8: 'Plastic', // 'Plastic',
+    9: 'Shoes', // 'Shoes',
+    10: 'Trash', // 'Trash',
+    11: 'White Glass' // 'White Glass',
   };
 
   return classes;
